@@ -82,6 +82,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     place-items: center;
+    padding: 0 1rem;
 }
 
 .gallery-container img {
