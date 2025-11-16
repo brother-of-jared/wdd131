@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippines</title>
+    <meta name="description" content="About Philippines | Week 3 Assignment Contry Page">
+    <meta name="author" content="Mahonri Balajadia">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Philippines</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/philippines-large.webp" media="(min-width: 1300px)">
+                <source srcset="images/philippines-medium.webp" media="(min-width: 800px)">
+                <img src="images/philippines-small.webp" alt="Philippines" width="1500" height="750">
+            </picture>
+        </div>
+        <section class="data">
+            <h2>Data</h2>
+            <span class="label">Area:</span>
+            <span class="value">300,000 sq km</span>
+            <span class="label">Population:</span>
+            <span class="value">112,729,484</span>
+            <span class="label">Capital:</span>
+            <span class="value">Manila</span>
+            <span class="label">Languages:</span>
+            <span class="value">Filipino, English</span>
+            <span class="label">Currency:</span>
+            <span class="value">Philippine Peso (₱)</span>
+            <span class="label">Time Zone:</span>
+            <span class="value">UTC+8</span>
+            <span class="label">Calling Code:</span>
+            <span class="value">+63</span>
+            <span class="label">Internet TLD:</span>
+            <span class="value">.ph</span>
+        </section>
+        <div class="divider"></div>
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" alt="Weather Icon">
+            <span class="label">Temperature:</span>
+            <span class="value">31 °C</span>
+            <span class="label">Conditions:</span>
+            <span class="value">Sunny</span>
+            <span class="label">Wind:</span>
+            <span class="value">2 m/s</span>
+            <span class="label">Wind Chill:</span>
+            <span class="value" id="windChill"></span>
+        </section>
+    </main>
+    <footer>
+            <div class="footer-container">
+            <p><span id="currentyear"></span> 🧑‍💻 Mahonri Balajadia 🌐 Philippines</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@media screen and (min-width: 800px) {
+    main {
+        position: relative;
+    }
+    
+    section {
+        position: absolute;
+        background-color: rgb(255 255 255 / 80%);
+    }
+
+    h2 {
+        text-align: left;
+        background-color: #c33344;
+        color: #fff;
+        padding: .5rem 1rem;
+        margin-left: -1.5rem;
+        width: 100%;
+    }
+
+    footer {
+        border: none;
+    }
+
+    /* Class Styling */
+
+    .hero img {
+        border: none;
+        min-height: 500px;
+        max-height: 1000px;
+    }
+
+    .data {
+        top: 2rem;
+        left: 1rem;
+    }
+
+    .weather {
+        right: 1rem;
+        bottom: 2rem;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .weather img {
+        display: none;
+    }
+
+    /* Psuedo Element */
+    .weather h2::after {
+        content: "🌥️";
+        margin-left: 1rem;
+    }
+}
