@@ -10,7 +10,7 @@
 
     h2 {
         text-align: left;
-        background-color: #c33344;
+        background-color: var(--secondary-color);
         color: #fff;
         padding: .5rem 1rem;
         margin-left: -1.5rem;

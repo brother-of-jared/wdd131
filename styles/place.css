@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #1a4496;
+    --secondary-color: #c33344;
+    --accent-color: #f6bf49;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -10,8 +16,8 @@ body {
 
 header {
     padding: 1rem;
-    background-color: #1a4496;
-    border-bottom: 1rem solid #c33344;
+    background-color: var(--primary-color);
+    border-bottom: 1rem solid var(--secondary-color);
 }
 
 h1 {
@@ -40,10 +46,10 @@ h2 {
 }
 
 footer {
-    background-color: #1a4496;
-    color: white;
+    background-color: var(--primary-color);
+    color: #ffffff;
     padding: 1rem;
-    border-top: .5rem solid #c33344;
+    border-top: .5rem solid var(--secondary-color);
 }
 
 
@@ -53,7 +59,7 @@ footer {
     width: 100%;
     height: auto;
     max-height: 700px;
-    border-bottom: .5rem solid #c33344;
+    border-bottom: .5rem solid var(--secondary-color);
     object-fit: cover;
 }
 
@@ -65,7 +71,7 @@ footer {
 .divider {
     width: 70%;
     height: 3px;
-    background-color: #f6bf49;
+    background-color: var(--accent-color);
     border-radius: 10px;
     margin: auto;
 }
