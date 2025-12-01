@@ -48,6 +48,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    text-align: center;
 }
 
 .summary-box {
@@ -56,6 +57,7 @@ footer {
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 1px 1px 10px darkslategray;
+    text-align: left;
 }
 
 .summary-box p {
@@ -84,4 +86,14 @@ a {
     text-decoration: none;
     display: block;
     text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        max-width: 700px;
+    }
+
+    .summary-box {
+        min-width: 350px;
+    }
 }
