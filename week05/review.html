@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="">
+    <meta name="author" content="Mahonri Balajadia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/review.css">
+    <script src="scripts/review.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>We Appreciate Your Review!</h1>
+    </header>
+    <main>
+        <div class="review-box">
+            <section>
+                <h2>Review Submission Confirmation</h2>
+                <p>Your product review has been submitted.<br>We want you to know that we value your thoughts!</p>
+                <p>Total submitted reviews: <span id="total-reviews">0</span></p>
+            </section>
+            <section class="summary-box">
+                <h2>Review Summary</h2>
+                <p><strong>Product: </strong><span id="product"></span></p>
+                <p><strong>Rating: </strong><span id="rating"></span></p>
+                <p><strong>Installation Date: </strong><span id="date"></span></p>
+                <p><strong>Useful Features: </strong><span id="features"></span></p>
+                <p><strong>Name: </strong><span id="name"></span></p>
+                <a href="form.html">Submit Another Review</a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p><span id="currentyear"></span> 🧑‍💻 Mahonri Balajadia 🌐 Philippines</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

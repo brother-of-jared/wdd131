@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: darkslategray;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0 20px;
+}
+
+h2, p {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: darkslategray;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.review-box {
+    margin: 1rem 20px;
+    padding: 2rem;
+    background-color: rgb(170, 201, 201);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.summary-box {
+    margin: 0 auto;
+    background-color: mintcream;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px darkslategray;
+}
+
+.summary-box p {
+    font-size: 18px;
+}
+
+#rating {
+    font-size: 18px;
+    color: darkslategray;
+}
+
+#total-reviews {
+    font-weight: bold;
+}
+
+a {
+    margin: .5rem auto;
+    padding: 6px 12px;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: darkslategray;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}

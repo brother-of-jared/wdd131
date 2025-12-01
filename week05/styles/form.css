@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+    background-color:darkslategray;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+footer {
+    background-color: darkslategray;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ----FORM STYLING---- */
+
+.review-form {
+    margin: 1rem 20px;
+    padding: 1rem;
+    background-color: rgb(170, 201, 201);
+    border-radius: 10px;
+}
+
+.review-form input[type=text],
+.review-form select,
+.review-form input[type=date],
+.review-form textarea,
+.review-form input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: solid 1px darkslategray;
+}
+
+.review-form label {
+    display: flex;
+    align-items: center;
+}
+
+.ratings-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.ratings-box input {
+    display: none;
+}
+
+.ratings-box label {
+    color: darkslategray;
+    cursor: pointer;
+    padding: 0 2px;
+    transition: color 0.2s;
+}
+
+.ratings-box label:hover,
+.ratings-box label:hover ~ label {
+    color: #F7D000;
+}
+
+.ratings-box input:checked ~ label {
+    color: #F7D000;
+}
+
+.review-form input[type=checkbox] {
+    margin-right: 6px;
+}
+
+.features-box label {
+    margin-bottom: 6px;
+}
+
+.review-form div {
+    margin-bottom: 1rem;
+}
+
+.review-form span {
+    display: block;
+}
+
+.optional {
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+.review-form input[type=submit] {
+    font-weight: bold;
+    font-size: medium;
+    background-color: darkslategray;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+}
+
+#durability,
+#ease,
+#performance,
+#design {
+    width: 20px;
+    height: 20px;
+}
