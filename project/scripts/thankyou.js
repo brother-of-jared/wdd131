@@ -12,3 +12,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+
+// POPULATE NAME FROM URL
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get('fname') || 'Traveler';
+
+    const nameElement = document.getElementById('f-name');
+    if (nameElement) {
+      nameElement.textContent = name;
+    }
+});
